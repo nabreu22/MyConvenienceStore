@@ -1,0 +1,14 @@
+C:\Users\nabre\OneDrive\Documentos\Hyper Island\ProgrammingGameEngines\Projects\MyConvenienceStore\obj\Debug\net7.0\MyConvenienceStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nabre\OneDrive\Documentos\Hyper Island\ProgrammingGameEngines\Projects\MyConvenienceStore\obj\Debug\net7.0\MyConvenienceStore.AssemblyInfoInputs.cache
+C:\Users\nabre\OneDrive\Documentos\Hyper Island\ProgrammingGameEngines\Projects\MyConvenienceStore\obj\Debug\net7.0\MyConvenienceStore.AssemblyInfo.cs
+C:\Users\nabre\OneDrive\Documentos\Hyper Island\ProgrammingGameEngines\Projects\MyConvenienceStore\obj\Debug\net7.0\MyConvenienceStore.csproj.CoreCompileInputs.cache
+C:\Users\nabre\OneDrive\Documentos\Hyper Island\ProgrammingGameEngines\Projects\MyConvenienceStore\bin\Debug\net7.0\MyConvenienceStore.exe
+C:\Users\nabre\OneDrive\Documentos\Hyper Island\ProgrammingGameEngines\Projects\MyConvenienceStore\bin\Debug\net7.0\MyConvenienceStore.deps.json
+C:\Users\nabre\OneDrive\Documentos\Hyper Island\ProgrammingGameEngines\Projects\MyConvenienceStore\bin\Debug\net7.0\MyConvenienceStore.runtimeconfig.json
+C:\Users\nabre\OneDrive\Documentos\Hyper Island\ProgrammingGameEngines\Projects\MyConvenienceStore\bin\Debug\net7.0\MyConvenienceStore.dll
+C:\Users\nabre\OneDrive\Documentos\Hyper Island\ProgrammingGameEngines\Projects\MyConvenienceStore\bin\Debug\net7.0\MyConvenienceStore.pdb
+C:\Users\nabre\OneDrive\Documentos\Hyper Island\ProgrammingGameEngines\Projects\MyConvenienceStore\obj\Debug\net7.0\MyConvenienceStore.dll
+C:\Users\nabre\OneDrive\Documentos\Hyper Island\ProgrammingGameEngines\Projects\MyConvenienceStore\obj\Debug\net7.0\refint\MyConvenienceStore.dll
+C:\Users\nabre\OneDrive\Documentos\Hyper Island\ProgrammingGameEngines\Projects\MyConvenienceStore\obj\Debug\net7.0\MyConvenienceStore.pdb
+C:\Users\nabre\OneDrive\Documentos\Hyper Island\ProgrammingGameEngines\Projects\MyConvenienceStore\obj\Debug\net7.0\MyConvenienceStore.genruntimeconfig.cache
+C:\Users\nabre\OneDrive\Documentos\Hyper Island\ProgrammingGameEngines\Projects\MyConvenienceStore\obj\Debug\net7.0\ref\MyConvenienceStore.dll
