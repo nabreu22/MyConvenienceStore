@@ -14,16 +14,8 @@ namespace ConvenienceStore
 
             User user = new User(userFirstName, 200.0m);
 
-            //add breaks between lines and give a number to each option
-            // List<Product> items = new List<Product>
-            // {
-            //     new Product(1, "The Dark Side Of The Moon - Pink Floyd", 50.00m , 5),
-            //     new Product(2, "Sgt. Pepper's Lonely Hearts Club Band  - Beatles", 0.50m , 1),
-            //     new Product(3, "Beggars Banquet  - Rolling Stones", 70.0m , 3),
-            //     new Product(4, "Let's Dance - David Bowie", 80.00m , 2),
-            //     new Product(5, "The Existential Soul - Tim Maia", 90.00m , 7)
-            // };
-
+            Store convenienceStore = new Store();
+            ShoppingCart cart = new ShoppingCart();
 
 
             while (true)
@@ -42,31 +34,36 @@ namespace ConvenienceStore
                     switch (answer)
                     {
                         case 1:
+                            //list products
                             {
-
-                                foreach (Product item in items)
-                                {
-                                    item.ShowInfo();
-                                }
+                                convenienceStore.ListAvailableProducts();
                                 break;
                             }
                         case 2:
+                            //show my balance
                             {
-                                //show my balance
                                 user.ShowUserBalance();
                                 break;
                             }
                         case 3:
+                            //purchase
                             {
-                                Console.WriteLine("What would you like to purchase today?: ");
-
+                                Console.WriteLine("What would you like to purchase today?(give me the number ): ");
+                                if (int.TryParse(Console.ReadLine(), out int productNumber))
+                                {
+                                    convenienceStore.AddProductToCart(cart, productNumber, user);
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Invalid product number entered.");
+                                }
                                 break;
-
                             }
                         case 4:
+                            //view cart
                             {
                                 //view cart
-                                Console.WriteLine("show my balance");
+                                cart.DisplayCart();
                                 break;
                             }
                         case 5:
@@ -84,7 +81,7 @@ namespace ConvenienceStore
                 }
 
 
-                // Check if user wants to do anything else after each chosen option
+                // Check if user wants to do anything else 
                 Console.WriteLine("Do you want to continue? (yes/y or no/n)");
                 string continueResponse = Console.ReadLine().ToLower();
 

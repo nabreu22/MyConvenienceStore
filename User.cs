@@ -19,6 +19,14 @@ class User
         Console.WriteLine($"Hello, {UserName}! Your balance is: {UserBalance}!");
     }
 
-    //deduzir balance aqui
+    public bool DeductFromBalance(decimal amount)
+    {
+        if (UserBalance >= amount)
+        {
+            UserBalance -= amount;
+            return true;
+        }
+        return false;
+    }
 
 }

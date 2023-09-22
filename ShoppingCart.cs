@@ -1,10 +1,20 @@
 using System;
 
-class ShoppingCartService
+class ShoppingCart
 {
-    //attribute
-    public int items;
-    //method
+    private List<Product> cartItems = new List<Product>();
 
+    public void AddToCart(Product product)
+    {
+        cartItems.Add(product);
+    }
+
+    public void DisplayCart()
+    {
+        Console.WriteLine("Shopping Cart:");
+        foreach (var item in cartItems)
+        {
+            item.ShowInfo();
+        }
+    }
 }
-

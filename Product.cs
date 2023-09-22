@@ -10,7 +10,7 @@ class Product
     public decimal Price { get; }
     public int Stock { get; set; }
 
-    //methods ---- posso usar diferentes metodos aqui e com diferentes funcoes, a depender se eu adiciono parametros ou nao, ver video 4 curso
+    //methods 
 
 
     public Product(int id, string name, decimal price, int stock)
@@ -24,7 +24,7 @@ class Product
     //show info
     public void ShowInfo()
     {
-        Console.WriteLine($"{Name} - {Price}");
+        Console.WriteLine($"{Id} - {Name} - {Price}");
     }
 
     //check stock and show info
