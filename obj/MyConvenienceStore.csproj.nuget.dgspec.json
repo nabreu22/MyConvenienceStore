@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\nabre\\OneDrive\\Documentos\\Hyper Island\\ProgrammingGameEngines\\Projects\\MyConvenienceStore\\MyConvenienceStore.csproj": {}
+    "C:\\Users\\nabre\\OneDrive\\Documentos\\Hyper Island\\ProgrammingGameEngines\\Projects\\MyConvenienceStore\\MyConvenienceStore.csproj": {}
   },
   "projects": {
-    "c:\\Users\\nabre\\OneDrive\\Documentos\\Hyper Island\\ProgrammingGameEngines\\Projects\\MyConvenienceStore\\MyConvenienceStore.csproj": {
+    "C:\\Users\\nabre\\OneDrive\\Documentos\\Hyper Island\\ProgrammingGameEngines\\Projects\\MyConvenienceStore\\MyConvenienceStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\nabre\\OneDrive\\Documentos\\Hyper Island\\ProgrammingGameEngines\\Projects\\MyConvenienceStore\\MyConvenienceStore.csproj",
+        "projectUniqueName": "C:\\Users\\nabre\\OneDrive\\Documentos\\Hyper Island\\ProgrammingGameEngines\\Projects\\MyConvenienceStore\\MyConvenienceStore.csproj",
         "projectName": "MyConvenienceStore",
-        "projectPath": "c:\\Users\\nabre\\OneDrive\\Documentos\\Hyper Island\\ProgrammingGameEngines\\Projects\\MyConvenienceStore\\MyConvenienceStore.csproj",
+        "projectPath": "C:\\Users\\nabre\\OneDrive\\Documentos\\Hyper Island\\ProgrammingGameEngines\\Projects\\MyConvenienceStore\\MyConvenienceStore.csproj",
         "packagesPath": "C:\\Users\\nabre\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\nabre\\OneDrive\\Documentos\\Hyper Island\\ProgrammingGameEngines\\Projects\\MyConvenienceStore\\obj\\",
+        "outputPath": "C:\\Users\\nabre\\OneDrive\\Documentos\\Hyper Island\\ProgrammingGameEngines\\Projects\\MyConvenienceStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nabre\\AppData\\Roaming\\NuGet\\NuGet.Config"

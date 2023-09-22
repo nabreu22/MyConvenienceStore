@@ -7,21 +7,28 @@ namespace ConvenienceStore
         static void Main(string[] args)
 
         {
+            Console.WriteLine("Hi, before to proceed, please inform your first name: ");
+            string userFirstName = Console.ReadLine();
 
-            List<Product> items = new List<Product>
-            {
-                new Product("The Dark Side Of The Moon - Pink Floyd", 50.00f, 5),
-                new Product("The  - Beatles", 0.50f , 1),
-                new Product("The  - Rolling Stones", 70.0f, 3),
-                new Product("The  - David Bowie", 80.00f, 2),
-                new Product("The  - Tim Maia", 90.00f, 7)
-            };
+            Console.WriteLine($"Hello {userFirstName} welcome to MyRecordStore - Please, choose what you want to do next: ");
+
+            User user = new User(userFirstName, 200.0m);
+
+            //add breaks between lines and give a number to each option
+            // List<Product> items = new List<Product>
+            // {
+            //     new Product(1, "The Dark Side Of The Moon - Pink Floyd", 50.00m , 5),
+            //     new Product(2, "Sgt. Pepper's Lonely Hearts Club Band  - Beatles", 0.50m , 1),
+            //     new Product(3, "Beggars Banquet  - Rolling Stones", 70.0m , 3),
+            //     new Product(4, "Let's Dance - David Bowie", 80.00m , 2),
+            //     new Product(5, "The Existential Soul - Tim Maia", 90.00m , 7)
+            // };
 
 
 
             while (true)
             {
-                Console.WriteLine("Welcome to MyRecordStore - Please, choose what you want to do next: ");
+
                 Console.WriteLine("1 - List Products");
                 Console.WriteLine("2 - Show my balance");
                 Console.WriteLine("3 - Purchase");
@@ -46,28 +53,25 @@ namespace ConvenienceStore
                         case 2:
                             {
                                 //show my balance
-                                Console.WriteLine("show my balance");
-                                // break;
-                                return;
+                                user.ShowUserBalance();
+                                break;
                             }
                         case 3:
                             {
-                                //purchase 
-                                Console.WriteLine("purchase ");
-                                // break;
-                                return;
+                                Console.WriteLine("What would you like to purchase today?: ");
+
+                                break;
+
                             }
                         case 4:
                             {
                                 //view cart
                                 Console.WriteLine("show my balance");
-                                // break;
-                                return;
+                                break;
                             }
                         case 5:
                             {
-                                Console.WriteLine("break");
-                                // break;
+                                Console.WriteLine("Exiting...");
                                 return;
                             }
                     }
@@ -75,9 +79,34 @@ namespace ConvenienceStore
                 }
                 else
                 {
+                    Console.WriteLine("It will work but only if you pic a number between 1 to 5");
 
                 }
-                break;
+
+
+                // Check if user wants to do anything else after each chosen option
+                Console.WriteLine("Do you want to continue? (yes/y or no/n)");
+                string continueResponse = Console.ReadLine().ToLower();
+
+                while (true)
+                {
+                    if (continueResponse == "yes" || continueResponse == "y")
+                    {
+                        break;
+                    }
+                    else if (continueResponse == "no" || continueResponse == "n")
+                    {
+                        Console.WriteLine("Exiting...");
+                        return;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Please, inform a valid answer: yes(y) or no(n)");
+                        continueResponse = Console.ReadLine().ToLower();
+                    }
+                }
+
+
             }
 
         }
