@@ -16,11 +16,16 @@ Get information about a product.
 Run the application.
 Enter your first name when prompted.
 Choose from the following options:
-List Products (1): View the available products in the store.
-Show my balance (2): Check your account balance.
-Purchase (3): Buy a product by entering its number.
-View Cart (4): See the products in your shopping cart.
-Exit (5): Leave the application.
+List Products (1): 
+View the available products in the store.
+Show my balance (2): 
+Check your account balance.
+Purchase (3): 
+Buy a product by entering its number.
+View Cart (4): 
+See the products in your shopping cart.
+Exit (5): 
+Leave the application.
 
 📦 Products
 
